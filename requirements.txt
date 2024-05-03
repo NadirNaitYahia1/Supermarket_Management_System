@@ -1,0 +1,4 @@
+dnspython==2.6.1
+mysql-connector-python==8.4.0
+pymongo==4.7.1
+tk==0.1.0
