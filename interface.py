@@ -3,6 +3,8 @@ from tkinter import ttk
 import mysql.connector
 from tkinter import filedialog
 import pymongo
+
+
 class Models:
     def __init__(self, db_name='db'):
         self.db_name = db_name
@@ -342,8 +344,6 @@ class SuperMarketManagerApp:
         self.listeProducts.delete(0,tk.END)
         self.e10.delete(0, tk.END)
         self.e11.delete(0, tk.END)
-
-
 
 
     
